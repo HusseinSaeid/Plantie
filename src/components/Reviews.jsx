@@ -96,7 +96,7 @@ export default function Review() {
       className="py-15"
     >
       <div className="flex justify-center items-center">
-        <h2>What They Said About Us</h2>
+        <h2>Customer Reviews</h2>
       </div>
       <Marquee
         autofill={true}
