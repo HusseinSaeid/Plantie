@@ -8,7 +8,7 @@ A modern, fully responsive landing page **template** designed for natural skinca
 
 | Desktop Preview | Mobile Preview | Lighthouse Score |
 | :---: | :---: | :---: |
-| [![Desktop Preview](https://postimg.cc/ctwvK61H)](https://postimg.cc/ctwvK61H) | [![Mobile Preview](https://postimg.cc/YjWGDD63)](https://postimg.cc/YjWGDD63) | [![Lighthouse Score](https://postimg.cc/56zr0Jwp)](https://postimg.cc/56zr0Jwp) |
+| [![Desktop Preview](https://i.postimg.cc/MHrVFjhy/screencapture-localhost-4173-2026-09-12-17-40-50.png) | [![Mobile Preview](https://i.postimg.cc/gcMVJfrf/screencapture-localhost-4173-2026-09-12-17-40-28.png) | [![Lighthouse Score](https://i.postimg.cc/5NKWsNjc/download-(11).png) |
 
 ---
 
