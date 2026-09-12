@@ -1,0 +1,11 @@
+# Plantie Organic
+
+> Cold-pressed botanical extractions crafted for a sustainable, radiant lifestyle. Pure ingredients, zero compromises.
+
+Plantie Organic provides premium cold-pressed botanical skincare extractions and sustainable beauty products.
+
+## Core Sections
+- [Home](https://yourdomain.com/#home): Brand overview, hero feature, and core values.
+- [Products](https://yourdomain.com/#products): Our selection of cold-pressed botanical extractions and skincare items.
+- [Reviews](https://yourdomain.com/#reviews): Customer ratings, testimonials, and verified feedback.
+- [About Us](https://yourdomain.com/#about-us): Brand ethos, sustainability commitment, and contact information.
