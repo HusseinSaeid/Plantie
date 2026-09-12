@@ -1,19 +1,86 @@
-# React + Vite
+# Plantie 🌿 - Natural Skincare & Haircare Landing Page Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive landing page **template** designed for natural skincare and haircare brands. Built with **React**, **Vite**, **Tailwind CSS**, and **Redux UI**, this template delivers an elegant, high-performance web experience across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+* **Template-Ready & Customizable:** Designed as a flexible frontend template—easily swap out product data, branding colors, and imagery.
+* **Smart Sticky Navigation (`NavBar.jsx`):** Features real-time active section tracking via `IntersectionObserver` and an animated mobile menu toggle using Lucide icons.
+* **Hero Showcase (`Hero.jsx`):** High-impact banner featuring a 100% Certified Organic badge, custom dark gradient overlays, and dual call-to-action buttons.
+* **Interactive Product Catalog (`Products.jsx`):**
+  * Displays natural skincare and haircare items (Face Balm, Face Soap, Hair Shampoo, Facial Oil) in a responsive grid.
+  * Lazy-loaded dialog popup (`React.lazy` + `Suspense`) built with **Redux UI** to display high-resolution product photos, descriptions, pricing, and an **Order Button** *(UI presentation only)*.
+* **Dual-Direction Review Marquee (`Reviews.jsx`):** Infinite dual-scrolling customer testimonials powered by `react-fast-marquee`.
+* **Footer & Newsletter (`Footer.jsx`):** Brand mission statement, quick links, and a newsletter subscription form with immediate feedback.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+| :--- | :--- |
+| **React** | UI Framework (`React.lazy`, `Suspense`, Hooks) |
+| **Vite** | Fast Development Server & Build Tool |
+| **Tailwind CSS** | Utility-First Styling & Responsive Design |
+| **Redux UI** | Accessible Dialog Modal & UI State Management |
+| **Lucide React** | Animated Menu Icons |
+| **React Fast Marquee** | Continuous Review Carousel |
+| **JavaScript (ES6+)** | Core Logic |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/plantie.git
+cd plantie
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start Development Server
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser to view the application.
+
+---
+
+## ⚙️ How to Customize
+
+1. **Products Data:** Modify the product array in `src/components/Products.jsx` to update items, photos, and descriptions.
+2. **Theme & Branding:** Adjust primary/secondary accent colors and background variables in `App.css` or root styles.
+3. **Checkout Integration:** Attach your backend API, payment gateway, or WhatsApp order link to the **Order Button** inside `src/components/ui/ProductDialog.jsx`.
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/                  # Product photos, badges, and logo assets
+├── components/
+│   ├── NavBar.jsx           # Sticky navbar with mobile menu & scroll tracking
+│   ├── Hero.jsx             # Hero section with CTA buttons
+│   ├── Products.jsx         # Product grid triggering Redux UI dialog modal
+│   ├── Reviews.jsx          # Infinite marquee customer feedback
+│   ├── Footer.jsx           # Site footer & newsletter subscription form
+│   └── ui/
+│       ├── ProductDialog.jsx# Redux UI dialog modal for product details
+│       └── ReviewCard.jsx   # Customer review card component
+├── App.jsx                  # Main page layout assembly
+└── main.jsx                 # Application entry point
+```
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
