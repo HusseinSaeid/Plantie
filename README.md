@@ -4,6 +4,14 @@ A modern, fully responsive landing page **template** designed for natural skinca
 
 ---
 
+## 📸 Previews & Performance
+
+| Desktop Preview | Mobile Preview | Lighthouse Score |
+| :---: | :---: | :---: |
+| [![Desktop Preview](https://postimg.cc/ctwvK61H)](https://postimg.cc/ctwvK61H) | [![Mobile Preview](https://postimg.cc/YjWGDD63)](https://postimg.cc/YjWGDD63) | [![Lighthouse Score](https://postimg.cc/56zr0Jwp)](https://postimg.cc/56zr0Jwp) |
+
+---
+
 ## ✨ Key Features
 
 * **Template-Ready & Customizable:** Designed as a flexible frontend template—easily swap out product data, branding colors, and imagery.
@@ -56,7 +64,7 @@ Open `http://localhost:5173` in your browser to view the application.
 ## ⚙️ How to Customize
 
 1. **Products Data:** Modify the product array in `src/components/Products.jsx` to update items, photos, and descriptions.
-2. **Theme & Branding:** Adjust primary/secondary accent colors and background variables in `App.css` or root styles.
+2. **Theme & Branding:** Adjust primary/secondary accent colors and background variables in `tailwind.config.js` or root styles.
 3. **Checkout Integration:** Attach your backend API, payment gateway, or WhatsApp order link to the **Order Button** inside `src/components/ui/ProductDialog.jsx`.
 
 ---
@@ -76,7 +84,7 @@ src/
 │       ├── ProductDialog.jsx# Redux UI dialog modal for product details
 │       └── ReviewCard.jsx   # Customer review card component
 ├── App.jsx                  # Main page layout assembly
-└── main.jsx                 # Application entry point
+└── main.jsx                 # App entry point
 ```
 
 ---
